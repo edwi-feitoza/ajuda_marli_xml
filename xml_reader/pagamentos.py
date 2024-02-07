@@ -5,6 +5,7 @@ class PagamentosReader:
 
     def __init__(self):
         self.elements_found_list_to_excel = []
+
     def __load_xml_files(self):
         dir_xml_files = r'xml_files/*.xml'
         xml_files = glob.glob(dir_xml_files)
